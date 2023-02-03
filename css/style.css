@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Nunito:wght@500&display=swap');
+@import url(./main.css);
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: black;
+    background-attachment: fixed;
+    max-width: 100%;
+}
+
+p{
+    color: rgb(213, 208, 208);
+    font-size: 2rem;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+nav{
+    background-color: whitesmoke;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 8px 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+nav ul {
+    display: flex;
+    margin-left: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 10px;
+}
+
+nav ul li a{
+    color: rgb(215, 25, 25);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
+h1, h2{
+    color: rgb(213, 208, 208);
+    font-size: 4rem;
+    font-family: 'Nunito', sans-serif;
+}
+label{
+    color: rgb(213, 208, 208);
+    font-size: 2rem;
+    font-family: 'Nunito', sans-serif;
+}
+.text-dark{
+    color: rgb(41, 41, 207);
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-justify{
+    text-align: justify;
+}
+.text-bold {
+    font-weight: 400;
+}
+.info__about{
+    width: 80%;
+    height: auto;
+    margin: 50px auto;
+    padding: 50px 30px;
+    border: solid 4px rgb(0, 0, 0);
+    overflow-y: auto;
+}
+.footer{
+    margin-top: 30px;
+    margin-bottom: 0;
+    max-width: 100%;
+}
+.pie__icon--sm{
+    width: 30px;
+}
+
+#mainNav{
+    grid-area: nav;
+}
+
+#header{
+    grid-area: header;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
